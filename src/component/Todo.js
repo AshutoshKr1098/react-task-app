@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ShowTodo from './component/ShowTodo';
-import CreateTodo from './component/CreateTodo';
-import ManualTodo from './component/ManualTodo';
-import './Todo.css'
+import ShowTodo from './ShowTodo';
+import CreateTodo from './CreateTodo';
+import ManualTodo from './ManualTodo';
+import '../asset/Todo.css'
 class Todo extends Component {
     state = {
         list: [],
@@ -21,8 +21,7 @@ class Todo extends Component {
             <>
                 <ManualTodo />
                 <CreateTodo onSubmit={this.onFormSubmit} />
-                {this.state.list.map(todo => {
-                    console.log(todo);
+                {this.state.list.map(todo => {                    
                     return <ShowTodo onDelete={this.onTaskDelete} id={todo.id} text={todo.todos}/>
                 })}
             </>            

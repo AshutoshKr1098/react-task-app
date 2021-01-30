@@ -1,6 +1,6 @@
 const ShowTodo = (props) => {
     const onDeleteTodo = (key) => {
-        console.log(key);
+        // console.log(key);
         props.onDelete(key);
     }
     return (
