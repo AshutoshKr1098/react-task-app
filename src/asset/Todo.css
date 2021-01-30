@@ -1,0 +1,69 @@
+.ManualTodo {
+  background: rgb(255, 59, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 59, 255, 1) 0%,
+    rgba(251, 125, 159, 1) 35%,
+    rgba(197, 92, 224, 1) 100%
+  );
+  height: 200px;
+  width: 60%;
+  padding: 20px;
+  margin: 0 20%;
+  border-radius: 10%;
+  border: 5px solid white;
+  text-align: center;
+}
+.ManualTodo ul {
+  text-align: left;
+  list-style: none;
+  line-height: 28px;
+}
+.CreateTodo {
+  width: 60%;
+  height: 80px;
+  padding: 20px;
+  margin: 20px auto;
+}
+.CreateTodo input {
+  padding: 20px;
+  width: 70%;
+  border: none;
+  background: rgb(180, 39, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 39, 180, 1) 0%,
+    rgba(185, 92, 226, 1) 35%,
+    rgba(189, 0, 237, 1) 100%
+  );
+  border-radius: 10px;
+  font-size: large;
+  text-align: center;
+  color: white;
+}
+.CreateTodo button {
+  padding: 5px;
+  background-color: rgb(30, 71, 107);
+  width: 60px;
+  margin: 10px;
+  color: white;
+  border: none;
+}
+.ShowTodo {
+  border: 2px solid white;
+  background-color: #333;
+  width: 40%;
+  margin: 20px auto;
+  color: white;
+}
+.ShowTodo p {
+  width: 60%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+.ShowTodo i {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+}
